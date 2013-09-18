@@ -1,0 +1,16 @@
+name: LoPixel
+main: ca.kanoa.lopixel.LoPixel
+version: 1.00.0001
+author: 12323op
+description: Advanced gamemode and lobby manager for CraftBukkit.
+
+permissions:
+    lopixel.example:
+        description: An example permission because Kanoa is dumb and WILL for get -_-
+        default: op
+        
+commands:
+    lopixel:
+        description: Um...nothing yet.
+        usage: /lightningrod <list/spawn/reload/overwrite>
+        aliases: [lp, lo]
