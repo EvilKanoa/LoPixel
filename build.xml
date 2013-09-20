@@ -68,7 +68,7 @@
   <target name="jar" depends="compile">
   	<jar destfile="${dist.dir}\LoPixel.jar" basedir="${build.dir}">
       <zipfileset dir="." includes="plugin.yml"/>
-      <zipfileset dir="." includes="rods.yml"/>
+      <zipfileset dir="." includes="config.yml"/>
     </jar>
   </target>
 
