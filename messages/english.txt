@@ -1,0 +1,1 @@
+plugin-enabled: %NAME% version %VERSION% has been enabled!

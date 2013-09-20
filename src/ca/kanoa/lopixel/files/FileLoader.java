@@ -41,6 +41,7 @@ public class FileLoader {
 			Log.error("Could not read file: " + file.getName());
 		} finally {
 			try {
+				if (reader != null)
 				reader.close();
 			} catch (IOException e) {
 				e.printStackTrace();
