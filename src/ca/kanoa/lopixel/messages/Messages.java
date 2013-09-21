@@ -27,6 +27,12 @@ public class Messages {
 		return languageFile.getValue(message);
 	}
 	
+	/**
+	 * Retrieves a message from the language file and replaces %ARG{num}% with each String.
+	 * @param message The message the get from the language file.
+	 * @param arguments The Strings to replace each %ARG{num}% with.
+	 * @return The formatted message gotten from the config.
+	 */
 	public String getMessageNumbered(String message, String... arguments) {
 		String string = languageFile.getValue(message);
 		for (int i = 0; i < arguments.length; i++)

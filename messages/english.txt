@@ -1,1 +1,2 @@
 plugin-enabled: %NAME% version %VERSION% has been enabled!
+sql-connection-error: Error while connecting to MySQL database %DATABASE% at %ADDRESS%. (Error: %ERROR%)

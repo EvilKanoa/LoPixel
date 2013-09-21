@@ -2,6 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Kanoa/workspace/LoPixel/lib/bukkit-1.6.2-R0.2-20130908.060124-17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Kanoa/workspace/LoPixel/lib/bukkit-1.6.2-R0.2-20130908.060124-17.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jd.bukkit.org/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Kanoa/workspace/LoPixel/lib/mysql-connector-java-5.0.8-bin.jar" sourcepath="C:/Users/Kanoa/Documents/mysql-connector-java-5.0.8/src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

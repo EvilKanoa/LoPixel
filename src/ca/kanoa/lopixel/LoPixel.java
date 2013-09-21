@@ -47,6 +47,10 @@ public class LoPixel extends JavaPlugin {
 		return instance;
 	}
 	
+	public static Messages getMessages() {
+		return instance.messages;
+	}
+	
 	public static Messages getMessages(JavaPlugin plugin) {
 		if (plugin.getClass().getAnnotation(Gamemode.class) != null) {
 			return new Messages(instance.getConfig().getString("language"), 
