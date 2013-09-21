@@ -10,7 +10,10 @@ META-INF/
 .DS_Store
 .DS_Store/
 docs/
-
+.project
+.classpath
+*.project
+*.classpath
 
 #################
 ## Eclipse
